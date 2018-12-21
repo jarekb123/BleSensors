@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="device"
+            type="com.butajlo.blesensors.ui.bletab.BleDevice" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_ic_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_device" />
+
+        <TextView
+            style="@style/BleScreenTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@{device.name}"
+            app:layout_constraintBottom_toBottomOf="@id/iv_ic_device"
+            app:layout_constraintStart_toEndOf="@id/iv_ic_device"
+            app:layout_constraintTop_toTopOf="@id/iv_ic_device" />
+
+        <TextView
+            style="@style/BleScreenTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/iv_ic_device"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/iv_ic_device" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

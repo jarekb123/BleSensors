@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BleScreenTheme" parent="AppTheme">
+        <item name="android:background">@color/material_blue800</item>
+    </style>
+
+    <style name="BleScreenTextStyle">
+        <item name="android:textColor">@color/material_white</item>
+    </style>
+
+    <style name="LightScreenTheme" parent="AppTheme">
+        <item name="android:background">@color/material_black</item>
+    </style>
+
+    <style name="LightScreenTextStyle">
+        <item name="android:textColor">@color/material_yellow800</item>
+        <item name="android:tint">@color/material_yellow800</item>
+    </style>
+
+
+
+</resources>

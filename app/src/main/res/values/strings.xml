@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BleSensors</string>
+    <string name="ble_off_info">Please turn on your Bluetooth!</string>
+    <string name="ble_discovering_info">Discovering devices…</string>
+    <string name="ble_on_info">Click search icon to discover devices…</string>
+</resources>

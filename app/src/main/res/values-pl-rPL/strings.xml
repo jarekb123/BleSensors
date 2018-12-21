@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BleSensors</string>
+    <string name="ble_off_info">Włącz Bluetooth!</string>
+    <string name="ble_discovering_info">Szukanie urządzeń...</string>
+    <string name="ble_on_info">Naciśnij przycisk \"Szukaj\" aby odkryć urządzenia...</string>
+</resources>
